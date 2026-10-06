@@ -1,6 +1,7 @@
 import './globals.css';
 import Script from 'next/script';
 import LucideInit from '../components/LucideInit';
+import GoogleAds from '../components/GoogleAds';
 
 export const metadata = {
   metadataBase: new URL('https://eduardamouraadvogados.adv.br'),
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         {children}
         <Script src="https://unpkg.com/lucide@latest" strategy="afterInteractive" />
         <LucideInit />
+        <GoogleAds />
       </body>
     </html>
   );
