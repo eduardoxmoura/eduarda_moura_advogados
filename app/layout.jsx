@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Script src="https://unpkg.com/lucide@latest" strategy="afterInteractive" />
-        <Script src="https://elfsightcdn.com/platform.js" strategy="afterInteractive" />
         <LucideInit />
       </body>
     </html>

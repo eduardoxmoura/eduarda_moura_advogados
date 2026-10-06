@@ -39,10 +39,9 @@ npm run start
 - `components/` — `PageBody` (render do conteúdo + JSON-LD) e `LucideInit` (ícones Lucide).
 - `public/` — imagens e `favicon.svg`.
 
-## Avaliações do Google (Elfsight)
+## Avaliações do Google
 
-O widget já está embutido na Início. O script do Elfsight é carregado no `app/layout.jsx`.
-Widget ID: `elfsight-app-bfc1e5a7-3a80-46cc-afd7-852384c444ee`.
+O widget de avaliações (Elfsight) foi retirado do site em 06/10/2026 para adequação ao Provimento 205/2021 da OAB.
 
 ## Trocar as fotos
 
