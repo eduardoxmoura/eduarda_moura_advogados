@@ -6,7 +6,7 @@ import GoogleAds from '../components/GoogleAds';
 export const metadata = {
   metadataBase: new URL('https://eduardamouraadvogados.adv.br'),
   title: {
-    default: 'Advogada Trabalhista em Salvador | Dra. Eduarda Moura',
+    default: 'Advogado Trabalhista em Salvador | Dra. Eduarda Moura',
     template: '%s',
   },
   description:
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        <Script src="https://unpkg.com/lucide@latest" strategy="afterInteractive" />
+        <Script src="https://unpkg.com/lucide@1.71.0/dist/umd/lucide.min.js" strategy="afterInteractive" />
         <LucideInit />
         <GoogleAds />
       </body>
